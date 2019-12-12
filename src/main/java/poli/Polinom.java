@@ -1,5 +1,6 @@
 package poli;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
@@ -7,6 +8,10 @@ import java.util.TreeMap;
 public class Polinom {
     private static double EPS = 1e-5;
     private Map<Integer, Double> polinom;
+
+    private int getMaxPower() {
+        return Collections.max(polinom.keySet());
+    }
 
     public Polinom() {
         polinom = new HashMap<>();
@@ -24,10 +29,11 @@ public class Polinom {
         if (polinom.isEmpty()) {
             System.out.print('0');
         } else {
+            int m = getMaxPower();
             Map<Integer, Double> tm = new TreeMap<>(polinom).descendingMap();
             tm.forEach((key, value) -> {
                 Power p = new Power(key, value);
-                p.render();
+                p.render(m != key);
             });
         }
     }

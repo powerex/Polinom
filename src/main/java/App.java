@@ -3,7 +3,7 @@ import poli.Polinom;
 public class App {
     public static void main(String[] args) {
         Polinom p1 = new Polinom();
-        p1.addElement(1, 1);
+        p1.addElement(1, -1);
         p1.addElement(0, 2);
 
         Polinom p2 = new Polinom();
