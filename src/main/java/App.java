@@ -2,6 +2,7 @@ import poli.Polinom;
 
 public class App {
     public static void main(String[] args) {
+        /*
         Polinom p1 = new Polinom();
         p1.addElement(1, -1);
         p1.addElement(0, 2);
@@ -16,6 +17,18 @@ public class App {
         System.out.println();
         p3 = p3.getPrime();
         p3.render();
+        //*/
+
+        Polinom p4 = new Polinom();
+        p4.addElement(2, 9);
+        p4.addElement(1, 30);
+        p4.addElement(0, 25);
+        p4.render();
+        System.out.println();
+
+        Polinom p5 = p4.sqrt();
+        if (p5 != null)
+            p5.render();
 
     }
 }
