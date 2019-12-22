@@ -11,7 +11,7 @@ public class FracPolinom {
 
     public void render() {
         numerator.render();
-        System.out.println("\n-------------------------------------------");
+        System.out.println("\n------------------");
         denominator.render();
         System.out.println();
     }

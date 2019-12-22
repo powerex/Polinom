@@ -16,6 +16,9 @@ public class Power {
             System.out.print('+');
         if (Math.abs(coeficient) != 1)
             System.out.print(Math.abs(coeficient));
+        else if (power == 0) {
+            System.out.print((double)1);
+        }
         if (power != 0)
             System.out.print('x');
         if (power != 1 && power != 0)

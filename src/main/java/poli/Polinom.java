@@ -24,9 +24,9 @@ public class Polinom {
         polinom = new HashMap<>();
     }
 
-    public void addElement(Power p) {
-        polinom.put(p.power, p.coeficient);
-    }
+//    public void addElement(Power p) {
+//        polinom.put(p.power, p.coeficient);
+//    }
 
     public void addElement(int power, double coeficient) {
         polinom.put(power, coeficient);

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../png/a0.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField prefHeight="26.0" prefWidth="150.0" text="1">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></TextField>
+                  <Region prefHeight="200.0" prefWidth="150.0" />
+                  <ImageView fitHeight="22.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../png/a1.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" top="2.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField prefHeight="26.0" prefWidth="150.0" text="x">
+                     <HBox.margin>
+                        <Insets left="12.0" />
+                     </HBox.margin></TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../png/b0.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="6.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField prefHeight="26.0" prefWidth="150.0" text="-3*x">
+                     <HBox.margin>
+                        <Insets left="11.0" />
+                     </HBox.margin></TextField>
+                  <Region prefHeight="200.0" prefWidth="150.0" />
+                  <ImageView fitHeight="30.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../png/b1.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField prefHeight="26.0" prefWidth="150.0" text="5">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="30.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="23.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../png/c0.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="8.0" top="2.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField prefHeight="26.0" prefWidth="150.0" text="2*x^2">
+                     <HBox.margin>
+                        <Insets left="12.0" />
+                     </HBox.margin></TextField>
+                  <Region prefHeight="200.0" prefWidth="150.0" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <AnchorPane prefHeight="30.0" prefWidth="600.0">
+               <children>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" text="Обчислити" textAlignment="CENTER" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="10.0">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Separator prefWidth="200.0" />
+            <Label alignment="TOP_CENTER" text="Характеристична функція" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="(1.0) * λ^2 + (-3.0x) * λ + (2.0x^2) = 0">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" />
+               </opaqueInsets>
+            </Label>
+            <Separator prefWidth="200.0">
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </Separator>
+            <HBox prefHeight="71.0" prefWidth="600.0">
+               <children>
+                  <Label prefWidth="85.0" text="y0(1) = 2.0x">
+                     <HBox.margin>
+                        <Insets left="50.0" top="25.0" />
+                     </HBox.margin></Label>
+                  <ImageView fitHeight="35.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../png/y11.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="70.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label prefHeight="60.0" prefWidth="139.0" text="-4.0x^3-10.0x+2.0 ---------------------------- x" textAlignment="CENTER" wrapText="true" />
+               </children>
+            </HBox>
+            <HBox prefHeight="71.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="85.0" text="y0(2) = x">
+                     <HBox.margin>
+                        <Insets left="50.0" top="25.0" />
+                     </HBox.margin></Label>
+                  <ImageView fitHeight="35.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../png/y12.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="70.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label prefHeight="60.0" prefWidth="139.0" text="-x^3-5.0x+1.0 ---------------------------- -x" textAlignment="CENTER" wrapText="true" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <HBox alignment="CENTER" prefHeight="71.0" prefWidth="600.0">
+               <children>
+                  <Label text="y1(x;ε)=2.0x+ε ">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Label prefHeight="51.0" prefWidth="137.0" text="-4.0x^3-10.0x+2.0 ---------------------------- x" textAlignment="CENTER" wrapText="true" />
+                  <Label text="+O(x)">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="71.0" prefWidth="600.0">
+               <children>
+                  <Label text="y2(x;ε)=x+ε ">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Label prefHeight="51.0" prefWidth="137.0" text="-x^3-5.0x+1.0 ---------------------------- -x" textAlignment="CENTER" wrapText="true" />
+                  <Label text="+O(x)">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children></VBox>
+   </children>
+</AnchorPane>
